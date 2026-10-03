@@ -1,0 +1,15 @@
+# HubSpot / secrets
+.env
+.env.*
+hubspot.config.yml
+hubspot.config.yaml
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Node (se usato in futuro)
+node_modules/
