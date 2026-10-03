@@ -1,0 +1,89 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": "top"
+  },
+  {
+    "name": "badge_1",
+    "label": "Badge 1",
+    "type": "text",
+    "default": "Novità 2026"
+  },
+  {
+    "name": "badge_2",
+    "label": "Badge 2",
+    "type": "text",
+    "default": "Abbattitori"
+  },
+  {
+    "name": "titolo",
+    "label": "Title",
+    "type": "text",
+    "default": "GOLD"
+  },
+  {
+    "name": "sottotitolo",
+    "label": "Subtitle",
+    "type": "text",
+    "default": "10 teglie GN 1/1 · EN 600×400"
+  },
+  {
+    "name": "lead",
+    "label": "Lead",
+    "type": "richtext",
+    "default": "<p>40 kg abbattuti da +90 a +3 °C in un solo ciclo, in un ingombro di 82 × 86 cm. Pulizia senza attrezzi e controllo touch da 7\".</p>"
+  },
+  {
+    "name": "cta_primaria_label",
+    "label": "Primary CTA label",
+    "type": "text",
+    "default": "Richiedi un preventivo"
+  },
+  {
+    "name": "cta_primaria_link",
+    "label": "Primary CTA link",
+    "type": "link",
+    "default": {
+      "url": {
+        "type": "EXTERNAL",
+        "href": "#contatti",
+        "content_id": null
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    }
+  },
+  {
+    "name": "cta_secondaria_label",
+    "label": "Secondary CTA label",
+    "type": "text",
+    "default": "Scarica la scheda tecnica"
+  },
+  {
+    "name": "cta_secondaria_link",
+    "label": "Secondary CTA link",
+    "type": "link",
+    "default": {
+      "url": {
+        "type": "EXTERNAL",
+        "href": "#modelli",
+        "content_id": null
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    }
+  },
+  {
+    "name": "immagine_prodotto",
+    "label": "Product image",
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": "Foto prodotto GOLD 10 (PNG scontornato)",
+      "width": 1200,
+      "height": 900
+    }
+  }
+]

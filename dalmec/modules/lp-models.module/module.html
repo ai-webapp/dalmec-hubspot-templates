@@ -1,0 +1,46 @@
+{% set aid = module.anchor_id|default('modelli', true) %}
+<section class="lp-models" id="{{ aid }}">
+  <div class="lp-container lp-models__inner">
+    <div class="lp-models__head">
+      {% if module.eyebrow %}<span class="lp-eyebrow">{{ module.eyebrow }}</span>{% endif %}
+      {% if module.titolo %}<h2 class="lp-h2">{{ module.titolo }}</h2>{% endif %}
+    </div>
+    <div class="lp-models__list">
+      {% for model in module.models %}
+        <details class="lp-model"{% if module.apri_primo and loop.first %} open{% endif %}>
+          <summary>
+            <span class="lp-model__summary-text">
+              <span>{{ model.codice }}</span>
+              {% if model.descrizione %}<span class="lp-model__desc">{{ model.descrizione }}</span>{% endif %}
+            </span>
+            <span class="lp-sign" aria-hidden="true"></span>
+          </summary>
+          <div class="lp-model__panel">
+            <div class="lp-model__col">
+              <span class="lp-model__col-label">Specifiche tecniche</span>
+              {% for spec in model.specs %}
+                <div class="lp-model__spec">
+                  <span>{{ spec.chiave }}</span>
+                  <strong>{{ spec.valore }}</strong>
+                </div>
+              {% endfor %}
+            </div>
+            <div class="lp-model__col">
+              <span class="lp-model__col-label">Download</span>
+              {% for dl in model.downloads %}
+                <a class="lp-model__dl" href="{{ dl.url|default('#', true) }}">
+                  <span>{{ dl.download_label }}</span>
+                  {% if dl.tipo == "richiedi" %}
+                    <strong class="lp-model__dl-action--mute">Richiedi</strong>
+                  {% else %}
+                    <strong class="lp-model__dl-action">↓ Scarica</strong>
+                  {% endif %}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>

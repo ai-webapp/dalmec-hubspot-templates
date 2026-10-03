@@ -1,0 +1,50 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": "contatti"
+  },
+  {
+    "name": "eyebrow",
+    "label": "Eyebrow",
+    "type": "text",
+    "default": "Contattaci"
+  },
+  {
+    "name": "titolo",
+    "label": "Title",
+    "type": "text",
+    "default": "Scopri GOLD 10 nella tua cucina."
+  },
+  {
+    "name": "testo",
+    "label": "Intro text",
+    "type": "text",
+    "default": "Un tecnico Dalmec ti ricontatta entro 24 ore lavorative con preventivo e configurazione consigliata."
+  },
+  {
+    "name": "telefono",
+    "label": "Phone",
+    "type": "text",
+    "default": "+39 0422 832679"
+  },
+  {
+    "name": "email",
+    "label": "Email",
+    "type": "text",
+    "default": "info@dal-mec.it"
+  },
+  {
+    "name": "form",
+    "label": "HubSpot form",
+    "type": "form",
+    "default": {
+      "form_id": "",
+      "response_type": "inline",
+      "message": "Grazie. La richiesta è stata inviata.",
+      "gotowebinar_webinar_key": null,
+      "form_type": "HUBSPOT"
+    }
+  }
+]

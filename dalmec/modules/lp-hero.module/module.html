@@ -1,0 +1,33 @@
+{% set aid = module.anchor_id|default('top', true) %}
+{% set cta1 = module.cta_primaria_link.url.href if module.cta_primaria_link and module.cta_primaria_link.url else "#contatti" %}
+{% set cta2 = module.cta_secondaria_link.url.href if module.cta_secondaria_link and module.cta_secondaria_link.url else "#modelli" %}
+<section class="lp-hero" id="{{ aid }}">
+  <div class="lp-container lp-hero__grid">
+    <div class="lp-hero__copy">
+      <div class="lp-hero__badges">
+        {% if module.badge_1 %}<span class="lp-badge lp-badge--solid">{{ module.badge_1 }}</span>{% endif %}
+        {% if module.badge_2 %}<span class="lp-badge lp-badge--outline">{{ module.badge_2 }}</span>{% endif %}
+      </div>
+      <h1 class="lp-hero__title">{{ module.titolo }}{% if module.sottotitolo %}<span class="lp-hero__subtitle">{{ module.sottotitolo }}</span>{% endif %}</h1>
+      {% if module.lead %}<div class="lp-hero__lead">{{ module.lead }}</div>{% endif %}
+      <div class="lp-hero__actions">
+        {% if module.cta_primaria_label %}<a class="lp-btn lp-btn--primary" href="{{ cta1 }}">{{ module.cta_primaria_label }}</a>{% endif %}
+        {% if module.cta_secondaria_label %}<a class="lp-btn lp-btn--secondary" href="{{ cta2 }}">{{ module.cta_secondaria_label }}</a>{% endif %}
+      </div>
+    </div>
+    <div class="lp-media lp-hero__media">
+      {% if module.immagine_prodotto.src %}
+        <img
+          src="{{ module.immagine_prodotto.src }}"
+          alt="{{ module.immagine_prodotto.alt|default('Prodotto', true)|escape_attr }}"
+          loading="eager"
+          decoding="async"
+          {% if module.immagine_prodotto.width %}width="{{ module.immagine_prodotto.width }}"{% endif %}
+          {% if module.immagine_prodotto.height %}height="{{ module.immagine_prodotto.height }}"{% endif %}
+        >
+      {% else %}
+        <div class="lp-media__ph">hero-product</div>
+      {% endif %}
+    </div>
+  </div>
+</section>

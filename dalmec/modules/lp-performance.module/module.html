@@ -1,0 +1,21 @@
+{% set aid = module.anchor_id %}
+<section class="lp-perf"{% if aid %} id="{{ aid }}"{% endif %}>
+  <div class="lp-container lp-perf__inner">
+    <div class="lp-perf__head">
+      <div>
+        {% if module.eyebrow %}<span class="lp-eyebrow lp-perf__eyebrow">{{ module.eyebrow }}</span>{% endif %}
+        {% if module.titolo %}<h2 class="lp-h2 lp-perf__title" style="margin-top:16px">{{ module.titolo }}</h2>{% endif %}
+      </div>
+      {% if module.nota %}<p class="lp-perf__nota">{{ module.nota }}</p>{% endif %}
+    </div>
+    <div class="lp-perf__grid">
+      {% for m in module.metrics %}
+        <div class="lp-perf__metric">
+          {% if m.metric_label %}<span class="lp-perf__label">{{ m.metric_label }}</span>{% endif %}
+          {% if m.valore %}<span class="lp-perf__value">{{ m.valore }}</span>{% endif %}
+          {% if m.dettaglio %}<span class="lp-perf__detail">{{ m.dettaglio }}</span>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

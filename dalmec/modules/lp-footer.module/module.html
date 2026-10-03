@@ -1,0 +1,22 @@
+{% set aid = module.anchor_id %}
+<footer class="lp-footer"{% if aid %} id="{{ aid }}"{% endif %}>
+  <div class="lp-container lp-footer__inner">
+    <div class="lp-footer__grid">
+      {% for col in module.colonne %}
+        <div class="lp-footer__col">
+          {% if col.titolo %}<strong>{{ col.titolo }}</strong>{% endif %}
+          {% if col.sottotitolo %}<strong>{{ col.sottotitolo }}</strong>{% endif %}
+          {% if col.testo %}<div>{{ col.testo }}</div>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="lp-footer__legal">
+      {% if module.copyright %}<span>{{ module.copyright }}</span>{% endif %}
+      {% if module.piva %}<span>{{ module.piva }}</span>{% endif %}
+      {% for item in module.link_legali %}
+        {% set href = item.url.url.href if item.url and item.url.url else "#" %}
+        <a href="{{ href }}">{{ item.link_label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>

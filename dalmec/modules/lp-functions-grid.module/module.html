@@ -1,0 +1,32 @@
+{% set aid = module.anchor_id %}
+<section class="lp-functions"{% if aid %} id="{{ aid }}"{% endif %}>
+  <div class="lp-container lp-functions__inner">
+    <div class="lp-functions__head">
+      {% if module.eyebrow %}<span class="lp-eyebrow">{{ module.eyebrow }}</span>{% endif %}
+      {% if module.titolo_sezione %}<h2 class="lp-h2">{{ module.titolo_sezione }}</h2>{% endif %}
+    </div>
+    <div class="lp-functions__grid">
+      {% for cell in module.cells %}
+        <div class="lp-functions__cell">
+          <div class="lp-functions__icon" aria-hidden="true">
+            {% if cell.icona == "thermometer" %}
+              <svg viewBox="0 0 24 24"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+            {% elif cell.icona == "snowflake" %}
+              <svg viewBox="0 0 24 24"><path d="M2 12h20M12 2v20M20 16l-4-4 4-4M4 8l4 4-4 4M16 4l-4 4-4-4M8 20l4-4 4 4"></path></svg>
+            {% elif cell.icona == "clock" %}
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+            {% elif cell.icona == "droplet" %}
+              <svg viewBox="0 0 24 24"><path d="M12 2.7c3 3.6 6 6.9 6 10.3a6 6 0 0 1-12 0c0-3.4 3-6.7 6-10.3Z"></path></svg>
+            {% elif cell.icona == "door" %}
+              <svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20"></rect><path d="M15 12h.01"></path></svg>
+            {% else %}
+              <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15-6.7L21 8M21 3v5h-5M21 12a9 9 0 0 1-15 6.7L3 16M3 21v-5h5"></path></svg>
+            {% endif %}
+          </div>
+          {% if cell.titolo %}<h3 class="lp-functions__title">{{ cell.titolo }}</h3>{% endif %}
+          {% if cell.testo %}<p class="lp-functions__text">{{ cell.testo }}</p>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

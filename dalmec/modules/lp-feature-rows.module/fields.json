@@ -1,0 +1,149 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "name": "eyebrow",
+    "label": "Eyebrow",
+    "type": "text",
+    "default": "Perché GOLD"
+  },
+  {
+    "name": "titolo_sezione",
+    "label": "Section title",
+    "type": "text",
+    "default": "Progettato sui dettagli che fanno la differenza in cucina."
+  },
+  {
+    "name": "rows",
+    "label": "Rows",
+    "type": "group",
+    "occurrence": {
+      "min": 1,
+      "max": 6,
+      "default": 4,
+      "sorting_label_field": "titolo"
+    },
+    "children": [
+      {
+        "name": "immagine",
+        "label": "Image",
+        "type": "image",
+        "default": {
+          "src": "",
+          "alt": "Feature image",
+          "width": 1200,
+          "height": 900
+        }
+      },
+      {
+        "name": "titolo",
+        "label": "Title",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "testo",
+        "label": "Text",
+        "type": "richtext",
+        "default": ""
+      },
+      {
+        "name": "bullet",
+        "label": "Bullets",
+        "type": "group",
+        "occurrence": {
+          "min": 0,
+          "max": 4,
+          "default": 2,
+          "sorting_label_field": "testo"
+        },
+        "children": [
+          {
+            "name": "testo",
+            "label": "Bullet text",
+            "type": "text",
+            "default": ""
+          }
+        ]
+      }
+    ],
+    "default": [
+      {
+        "immagine": {
+          "src": "",
+          "alt": "Dettaglio evaporatore / sportello ventole aperto",
+          "width": 1200,
+          "height": 900
+        },
+        "titolo": "Si pulisce in pochi minuti, senza attrezzi.",
+        "testo": "<p>L'evaporatore verniciato in cataforesi si raggiunge aprendo lo sportello ventole dall'interno della cella. Meno residui, più igiene, nessun intervento tecnico.</p>",
+        "bullet": [
+          {
+            "testo": "Guarnizione magnetica a sette camere, facilmente asportabile"
+          },
+          {
+            "testo": "Supporto portateglie removibile in acciaio inox AISI 304"
+          }
+        ]
+      },
+      {
+        "immagine": {
+          "src": "",
+          "alt": "Interno cella con 10 teglie caricate",
+          "width": 1200,
+          "height": 900
+        },
+        "titolo": "10 teglie in meno di un metro quadro.",
+        "testo": "<p>Accoglie teglie GN 1/1 o EN 600×400 in un ingombro di 820 × 860 mm. La capacità di un abbattitore da pasticceria nello spazio di una cucina professionale.</p>",
+        "bullet": [
+          {
+            "testo": "Doppio formato: Gastronorm e Euronorm"
+          },
+          {
+            "testo": "Piedini in acciaio inox AISI 304 regolabili"
+          }
+        ]
+      },
+      {
+        "immagine": {
+          "src": "",
+          "alt": "Display touch 7\" in primo piano",
+          "width": 1200,
+          "height": 900
+        },
+        "titolo": "Un tocco per scegliere il ciclo giusto.",
+        "testo": "<p>Display touch capacitivo da 7\" sul fronte porta. Abbattimento o surgelazione, a temperatura al cuore o a tempo: il ciclo si imposta in un gesto.</p>",
+        "bullet": [
+          {
+            "testo": "Fine ciclo a raggiungimento temperatura o a tempo"
+          },
+          {
+            "testo": "Sonda al cuore riscaldata disponibile come accessorio"
+          }
+        ]
+      },
+      {
+        "immagine": {
+          "src": "",
+          "alt": "Sezione porta / spessore isolamento",
+          "width": 1200,
+          "height": 900
+        },
+        "titolo": "Il freddo resta dentro. La qualità anche.",
+        "testo": "<p>60 mm di isolamento e porta con chiusura automatica e apertura fissa a 100°. Temperatura stabile, cristalli di ghiaccio piccoli, consistenza e sapore preservati.</p>",
+        "bullet": [
+          {
+            "testo": "Gas refrigerante R455a a basso impatto ambientale"
+          },
+          {
+            "testo": "Temperatura di camera da −40 a +10 °C"
+          }
+        ]
+      }
+    ]
+  }
+]

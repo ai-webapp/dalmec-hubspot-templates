@@ -1,0 +1,27 @@
+{% set aid = module.anchor_id|default('contatti', true) %}
+<section class="lp-contact" id="{{ aid }}">
+  <div class="lp-container lp-contact__grid">
+    <div class="lp-contact__copy">
+      {% if module.eyebrow %}<span class="lp-eyebrow lp-contact__eyebrow">{{ module.eyebrow }}</span>{% endif %}
+      {% if module.titolo %}<h2 class="lp-h2 lp-contact__title">{{ module.titolo }}</h2>{% endif %}
+      {% if module.testo %}<p class="lp-contact__text">{{ module.testo }}</p>{% endif %}
+      <div class="lp-contact__meta">
+        {% if module.telefono %}<span><strong>Telefono</strong> {{ module.telefono }}</span>{% endif %}
+        {% if module.email %}<span><strong>Email</strong> {{ module.email }}</span>{% endif %}
+      </div>
+    </div>
+    <div class="lp-contact__form-shell">
+      {% if module.form.form_id %}
+        {% form
+          form_to_use='{{ module.form.form_id }}'
+          response_response_type='{{ module.form.response_type }}'
+          response_message='{{ module.form.message }}'
+        %}
+      {% else %}
+        <p class="lp-contact__placeholder">
+          Seleziona un form HubSpot in questo modulo. Finché non è collegato, la sezione resta un placeholder di test.
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</section>

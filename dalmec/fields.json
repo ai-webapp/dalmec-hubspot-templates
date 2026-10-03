@@ -1,0 +1,90 @@
+[
+  {
+    "name": "style",
+    "label": "Stile DalMec",
+    "type": "group",
+    "children": [
+      {
+        "name": "navy",
+        "label": "Navy",
+        "type": "color",
+        "default": {
+          "color": "#04192c",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "blue",
+        "label": "Blue",
+        "type": "color",
+        "default": {
+          "color": "#2f8fc8",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "blue_light",
+        "label": "Blue light",
+        "type": "color",
+        "default": {
+          "color": "#6cb8e4",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "ink",
+        "label": "Ink",
+        "type": "color",
+        "default": {
+          "color": "#0b1f33",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "text",
+        "label": "Text",
+        "type": "color",
+        "default": {
+          "color": "#33475a",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "muted",
+        "label": "Muted",
+        "type": "color",
+        "default": {
+          "color": "#4a5b6c",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "bg_soft",
+        "label": "Background soft",
+        "type": "color",
+        "default": {
+          "color": "#eef2f5",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "bg_footer",
+        "label": "Background footer",
+        "type": "color",
+        "default": {
+          "color": "#e4e9ee",
+          "opacity": 100
+        }
+      },
+      {
+        "name": "line",
+        "label": "Line",
+        "type": "color",
+        "default": {
+          "color": "#d5dde5",
+          "opacity": 100
+        }
+      }
+    ]
+  }
+]

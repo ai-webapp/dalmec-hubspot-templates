@@ -1,0 +1,123 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "name": "eyebrow",
+    "label": "Eyebrow",
+    "type": "text",
+    "default": "Settori"
+  },
+  {
+    "name": "titolo",
+    "label": "Title",
+    "type": "text",
+    "default": "Ideale per"
+  },
+  {
+    "name": "sectors",
+    "label": "Sectors",
+    "type": "group",
+    "occurrence": {
+      "min": 1,
+      "max": 6,
+      "default": 4,
+      "sorting_label_field": "nome"
+    },
+    "children": [
+      {
+        "name": "immagine",
+        "label": "Image",
+        "type": "image",
+        "default": {
+          "src": "",
+          "alt": "Sector image",
+          "width": 1200,
+          "height": 900
+        }
+      },
+      {
+        "name": "nome",
+        "label": "Name",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "testo",
+        "label": "Text",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "colore_bordo",
+        "label": "Border color",
+        "type": "color",
+        "default": {
+          "color": "#c7a6d2",
+          "opacity": 100
+        }
+      }
+    ],
+    "default": [
+      {
+        "immagine": {
+          "src": "",
+          "alt": "Foto gelateria",
+          "width": 1200,
+          "height": 900
+        },
+        "nome": "Gelateria",
+        "testo": "Indurimento rapido di vaschette e semifreddi.",
+        "colore_bordo": {
+          "color": "#c7a6d2",
+          "opacity": 100
+        }
+      },
+      {
+        "immagine": {
+          "src": "",
+          "alt": "Foto panificazione",
+          "width": 1200,
+          "height": 900
+        },
+        "nome": "Panificazione",
+        "testo": "Impasti e prodotti da forno pronti quando servono.",
+        "colore_bordo": {
+          "color": "#dd4a3a",
+          "opacity": 100
+        }
+      },
+      {
+        "immagine": {
+          "src": "",
+          "alt": "Foto pasticceria",
+          "width": 1200,
+          "height": 900
+        },
+        "nome": "Pasticceria",
+        "testo": "Teglie EN 600×400 per mousse, creme e monoporzioni.",
+        "colore_bordo": {
+          "color": "#e9b97a",
+          "opacity": 100
+        }
+      },
+      {
+        "immagine": {
+          "src": "",
+          "alt": "Foto ristorazione",
+          "width": 1200,
+          "height": 900
+        },
+        "nome": "Ristorazione",
+        "testo": "Mise en place anticipata e sicurezza HACCP.",
+        "colore_bordo": {
+          "color": "#1f6b52",
+          "opacity": 100
+        }
+      }
+    ]
+  }
+]

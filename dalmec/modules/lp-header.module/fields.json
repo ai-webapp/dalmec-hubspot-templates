@@ -1,0 +1,57 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "name": "logo",
+    "label": "Logo",
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": "DalMec",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "name": "payoff",
+    "label": "Payoff",
+    "type": "text",
+    "default": "Perfect Cooling, Perfect Taste"
+  },
+  {
+    "name": "telefono_label",
+    "label": "Phone label",
+    "type": "text",
+    "default": "Chiamaci"
+  },
+  {
+    "name": "telefono",
+    "label": "Phone",
+    "type": "text",
+    "default": "+39 0422 832679"
+  },
+  {
+    "name": "cta_label",
+    "label": "CTA label",
+    "type": "text",
+    "default": "Richiedi info"
+  },
+  {
+    "name": "cta_link",
+    "label": "CTA link",
+    "type": "link",
+    "default": {
+      "url": {
+        "type": "EXTERNAL",
+        "href": "#contatti",
+        "content_id": null
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    }
+  }
+]

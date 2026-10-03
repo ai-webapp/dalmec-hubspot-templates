@@ -1,0 +1,321 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": "modelli"
+  },
+  {
+    "name": "eyebrow",
+    "label": "Eyebrow",
+    "type": "text",
+    "default": "Versioni"
+  },
+  {
+    "name": "titolo",
+    "label": "Title",
+    "type": "text",
+    "default": "Modelli disponibili"
+  },
+  {
+    "name": "apri_primo",
+    "label": "Open first model",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "name": "models",
+    "label": "Models",
+    "type": "group",
+    "occurrence": {
+      "min": 1,
+      "max": 12,
+      "default": 3,
+      "sorting_label_field": "codice"
+    },
+    "children": [
+      {
+        "name": "codice",
+        "label": "Code",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "descrizione",
+        "label": "Description",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "specs",
+        "label": "Specs",
+        "type": "group",
+        "occurrence": {
+          "min": 0,
+          "max": 20,
+          "default": 0,
+          "sorting_label_field": "chiave"
+        },
+        "children": [
+          {
+            "name": "chiave",
+            "label": "Key",
+            "type": "text",
+            "default": ""
+          },
+          {
+            "name": "valore",
+            "label": "Value",
+            "type": "text",
+            "default": ""
+          }
+        ]
+      },
+      {
+        "name": "downloads",
+        "label": "Downloads",
+        "type": "group",
+        "occurrence": {
+          "min": 0,
+          "max": 10,
+          "default": 0,
+          "sorting_label_field": "download_label"
+        },
+        "children": [
+          {
+            "name": "download_label",
+            "label": "Label",
+            "type": "text",
+            "default": ""
+          },
+          {
+            "name": "url",
+            "label": "URL or #anchor",
+            "type": "text",
+            "default": "#"
+          },
+          {
+            "name": "tipo",
+            "label": "Type",
+            "type": "choice",
+            "choices": [
+              [
+                "scarica",
+                "Scarica"
+              ],
+              [
+                "richiedi",
+                "Richiedi"
+              ]
+            ],
+            "default": "scarica",
+            "display": "select"
+          }
+        ]
+      }
+    ],
+    "default": [
+      {
+        "codice": "PBCG106AC",
+        "descrizione": "Condensazione aria · Sbrinamento aria",
+        "specs": [
+          {
+            "chiave": "Condensazione",
+            "valore": "Aria"
+          },
+          {
+            "chiave": "Sbrinamento",
+            "valore": "Aria"
+          },
+          {
+            "chiave": "Dimensioni",
+            "valore": "820×860×1470 mm"
+          },
+          {
+            "chiave": "Peso netto",
+            "valore": "188 kg"
+          },
+          {
+            "chiave": "Temperatura",
+            "valore": "−40 / +10 °C"
+          },
+          {
+            "chiave": "Resa abbattimento",
+            "valore": "40,0 kg (+90/+3)"
+          },
+          {
+            "chiave": "Resa congelamento",
+            "valore": "30,0 kg"
+          },
+          {
+            "chiave": "Resa frigorifera",
+            "valore": "6073 / 2124 W"
+          },
+          {
+            "chiave": "Potenza assorbita",
+            "valore": "3300 W"
+          },
+          {
+            "chiave": "Voltaggio",
+            "valore": "AC400V 3N+T 50Hz"
+          },
+          {
+            "chiave": "Capacità di carico",
+            "valore": "N.10 GN 1/1 o EN 600×400"
+          }
+        ],
+        "downloads": [
+          {
+            "label": "Scheda tecnica Dalmec",
+            "url": "#",
+            "tipo": "scarica"
+          },
+          {
+            "label": "Scheda tecnica neutra",
+            "url": "#",
+            "tipo": "scarica"
+          },
+          {
+            "label": "Manuale e disegno 2D",
+            "url": "#contatti",
+            "tipo": "richiedi"
+          }
+        ]
+      },
+      {
+        "codice": "PBCG106HG",
+        "descrizione": "Condensazione aria · Sbrinamento gas caldo",
+        "specs": [
+          {
+            "chiave": "Condensazione",
+            "valore": "Aria"
+          },
+          {
+            "chiave": "Sbrinamento",
+            "valore": "Gas caldo"
+          },
+          {
+            "chiave": "Dimensioni",
+            "valore": "820×860×1470 mm"
+          },
+          {
+            "chiave": "Peso netto",
+            "valore": "188 kg"
+          },
+          {
+            "chiave": "Temperatura",
+            "valore": "−40 / +10 °C"
+          },
+          {
+            "chiave": "Resa abbattimento",
+            "valore": "40,0 kg (+90/+3)"
+          },
+          {
+            "chiave": "Resa congelamento",
+            "valore": "30,0 kg"
+          },
+          {
+            "chiave": "Resa frigorifera",
+            "valore": "6073 / 2124 W"
+          },
+          {
+            "chiave": "Potenza assorbita",
+            "valore": "3300 W"
+          },
+          {
+            "chiave": "Voltaggio",
+            "valore": "AC400V 3N+T 50Hz"
+          },
+          {
+            "chiave": "Capacità di carico",
+            "valore": "N.10 GN 1/1 o EN 600×400"
+          }
+        ],
+        "downloads": [
+          {
+            "label": "Scheda tecnica Dalmec",
+            "url": "#",
+            "tipo": "scarica"
+          },
+          {
+            "label": "Scheda tecnica neutra",
+            "url": "#",
+            "tipo": "scarica"
+          },
+          {
+            "label": "Manuale e disegno 2D",
+            "url": "#contatti",
+            "tipo": "richiedi"
+          }
+        ]
+      },
+      {
+        "codice": "PBCG106WC",
+        "descrizione": "Condensazione acqua · Sbrinamento aria",
+        "specs": [
+          {
+            "chiave": "Condensazione",
+            "valore": "Acqua"
+          },
+          {
+            "chiave": "Sbrinamento",
+            "valore": "Aria"
+          },
+          {
+            "chiave": "Dimensioni",
+            "valore": "820×860×1470 mm"
+          },
+          {
+            "chiave": "Peso netto",
+            "valore": "188 kg"
+          },
+          {
+            "chiave": "Temperatura",
+            "valore": "−40 / +10 °C"
+          },
+          {
+            "chiave": "Resa abbattimento",
+            "valore": "40,0 kg (+90/+3)"
+          },
+          {
+            "chiave": "Resa congelamento",
+            "valore": "30,0 kg"
+          },
+          {
+            "chiave": "Resa frigorifera",
+            "valore": "6073 / 2124 W"
+          },
+          {
+            "chiave": "Potenza assorbita",
+            "valore": "3300 W"
+          },
+          {
+            "chiave": "Voltaggio",
+            "valore": "AC400V 3N+T 50Hz"
+          },
+          {
+            "chiave": "Capacità di carico",
+            "valore": "N.10 GN 1/1 o EN 600×400"
+          }
+        ],
+        "downloads": [
+          {
+            "label": "Scheda tecnica Dalmec",
+            "url": "#",
+            "tipo": "scarica"
+          },
+          {
+            "label": "Scheda tecnica neutra",
+            "url": "#",
+            "tipo": "scarica"
+          },
+          {
+            "label": "Manuale e disegno 2D",
+            "url": "#contatti",
+            "tipo": "richiedi"
+          }
+        ]
+      }
+    ]
+  }
+]

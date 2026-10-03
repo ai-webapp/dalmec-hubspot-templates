@@ -1,0 +1,110 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "name": "eyebrow",
+    "label": "Eyebrow",
+    "type": "text",
+    "default": "Funzioni"
+  },
+  {
+    "name": "titolo_sezione",
+    "label": "Section title",
+    "type": "text",
+    "default": "Tutto quello che serve, già di serie."
+  },
+  {
+    "name": "cells",
+    "label": "Cells",
+    "type": "group",
+    "occurrence": {
+      "min": 3,
+      "max": 9,
+      "default": 6,
+      "sorting_label_field": "titolo"
+    },
+    "children": [
+      {
+        "name": "icona",
+        "label": "Icon",
+        "type": "choice",
+        "choices": [
+          [
+            "thermometer",
+            "Thermometer"
+          ],
+          [
+            "snowflake",
+            "Snowflake"
+          ],
+          [
+            "clock",
+            "Clock"
+          ],
+          [
+            "droplet",
+            "Droplet"
+          ],
+          [
+            "door",
+            "Door"
+          ],
+          [
+            "refresh",
+            "Refresh"
+          ]
+        ],
+        "default": "thermometer",
+        "display": "select"
+      },
+      {
+        "name": "titolo",
+        "label": "Title",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "testo",
+        "label": "Text",
+        "type": "text",
+        "default": ""
+      }
+    ],
+    "default": [
+      {
+        "icona": "thermometer",
+        "titolo": "Abbattimento positivo",
+        "testo": "Fino a +3 °C al cuore per conservare cotti e semilavorati in sicurezza."
+      },
+      {
+        "icona": "snowflake",
+        "titolo": "Surgelazione",
+        "testo": "Fino a −18 °C al cuore per stoccaggi lunghi senza perdita di qualità."
+      },
+      {
+        "icona": "clock",
+        "titolo": "Ciclo a sonda o a tempo",
+        "testo": "Fine ciclo al raggiungimento della temperatura al cuore oppure a tempo impostato."
+      },
+      {
+        "icona": "droplet",
+        "titolo": "Drenaggio condensa",
+        "testo": "Scarico a caduta su vaschetta tramite tubo dedicato. Kit evaporazione disponibile."
+      },
+      {
+        "icona": "door",
+        "titolo": "Porta a chiusura automatica",
+        "testo": "Posizione di apertura fissa a 100° per caricare con entrambe le mani."
+      },
+      {
+        "icona": "refresh",
+        "titolo": "Sbrinamento",
+        "testo": "Ad aria o a gas caldo, a seconda del modello scelto."
+      }
+    ]
+  }
+]

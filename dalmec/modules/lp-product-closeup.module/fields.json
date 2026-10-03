@@ -1,0 +1,94 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "name": "eyebrow",
+    "label": "Eyebrow",
+    "type": "text",
+    "default": "Da vicino"
+  },
+  {
+    "name": "titolo",
+    "label": "Title",
+    "type": "text",
+    "default": "Ogni componente ha una ragione."
+  },
+  {
+    "name": "immagine",
+    "label": "Image",
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": "Foto 3/4 del prodotto",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
+    "name": "hotspots",
+    "label": "Hotspots",
+    "type": "group",
+    "occurrence": {
+      "min": 0,
+      "max": 6,
+      "default": 4,
+      "sorting_label_field": "titolo"
+    },
+    "children": [
+      {
+        "name": "posizione_x",
+        "label": "Position X %",
+        "type": "number",
+        "default": 46
+      },
+      {
+        "name": "posizione_y",
+        "label": "Position Y %",
+        "type": "number",
+        "default": 22
+      },
+      {
+        "name": "titolo",
+        "label": "Title",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "testo",
+        "label": "Text",
+        "type": "text",
+        "default": ""
+      }
+    ],
+    "default": [
+      {
+        "posizione_x": 46,
+        "posizione_y": 22,
+        "titolo": "Display touch 7\"",
+        "testo": "Comandi chiari, leggibili anche a distanza."
+      },
+      {
+        "posizione_x": 70,
+        "posizione_y": 44,
+        "titolo": "Guarnizione a 7 camere",
+        "testo": "Tenuta magnetica, si toglie e si lava."
+      },
+      {
+        "posizione_x": 38,
+        "posizione_y": 72,
+        "titolo": "Vano tecnico frontale",
+        "testo": "Condensazione ad aria o ad acqua."
+      },
+      {
+        "posizione_x": 62,
+        "posizione_y": 90,
+        "titolo": "Piedini inox regolabili",
+        "testo": "AISI 304, per un livellamento perfetto."
+      }
+    ]
+  }
+]

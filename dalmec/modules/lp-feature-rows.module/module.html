@@ -1,0 +1,65 @@
+{% set aid = module.anchor_id %}
+<section class="lp-features"{% if aid %} id="{{ aid }}"{% endif %}>
+  <div class="lp-container lp-features__intro">
+    {% if module.eyebrow %}<span class="lp-eyebrow">{{ module.eyebrow }}</span>{% endif %}
+    {% if module.titolo_sezione %}<h2 class="lp-h2">{{ module.titolo_sezione }}</h2>{% endif %}
+  </div>
+  <div class="lp-container lp-features__list">
+    {% for row in module.rows %}
+      {% if loop.index < 10 %}
+        {% set idx = "0" ~ loop.index %}
+      {% else %}
+        {% set idx = loop.index %}
+      {% endif %}
+      {% set is_alt = loop.index is divisibleby 2 %}
+      <div class="lp-feature{% if is_alt %} lp-feature--alt{% endif %}">
+        {% if not is_alt %}
+          <div class="lp-media lp-feature__media">
+            {% if row.immagine.src %}
+              <img
+                src="{{ row.immagine.src }}"
+                alt="{{ row.immagine.alt|default(row.titolo, true)|escape_attr }}"
+                loading="lazy"
+                decoding="async"
+                {% if row.immagine.width %}width="{{ row.immagine.width }}"{% endif %}
+                {% if row.immagine.height %}height="{{ row.immagine.height }}"{% endif %}
+              >
+            {% else %}
+              <div class="lp-media__ph">feature {{ idx }}</div>
+            {% endif %}
+          </div>
+        {% endif %}
+        <div class="lp-feature__copy">
+          <span class="lp-feature__index">{{ idx }}</span>
+          {% if row.titolo %}<h3 class="lp-feature__title">{{ row.titolo }}</h3>{% endif %}
+          {% if row.testo %}<div class="lp-feature__text">{{ row.testo }}</div>{% endif %}
+          {% if row.bullet %}
+            <div class="lp-feature__bullets">
+              {% for b in row.bullet %}
+                {% if b.testo %}
+                  <div class="lp-feature__bullet"><span class="lp-feature__bullet-mark">→</span>{{ b.testo }}</div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+        {% if is_alt %}
+          <div class="lp-media lp-feature__media">
+            {% if row.immagine.src %}
+              <img
+                src="{{ row.immagine.src }}"
+                alt="{{ row.immagine.alt|default(row.titolo, true)|escape_attr }}"
+                loading="lazy"
+                decoding="async"
+                {% if row.immagine.width %}width="{{ row.immagine.width }}"{% endif %}
+                {% if row.immagine.height %}height="{{ row.immagine.height }}"{% endif %}
+              >
+            {% else %}
+              <div class="lp-media__ph">feature {{ idx }}</div>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>

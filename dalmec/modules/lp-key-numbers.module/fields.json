@@ -1,0 +1,61 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "name": "items",
+    "label": "Numbers",
+    "type": "group",
+    "occurrence": {
+      "min": 2,
+      "max": 4,
+      "default": 4,
+      "sorting_label_field": "valore"
+    },
+    "children": [
+      {
+        "name": "valore",
+        "label": "Value",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "unita",
+        "label": "Unit",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "descrizione",
+        "label": "Description",
+        "type": "text",
+        "default": ""
+      }
+    ],
+    "default": [
+      {
+        "valore": "40",
+        "unita": "kg",
+        "descrizione": "Resa di abbattimento<br>da +90 a +3 °C"
+      },
+      {
+        "valore": "30",
+        "unita": "kg",
+        "descrizione": "Resa di surgelazione<br>fino a −18 °C al cuore"
+      },
+      {
+        "valore": "−40",
+        "unita": "°C",
+        "descrizione": "Temperatura minima<br>di camera"
+      },
+      {
+        "valore": "7",
+        "unita": "\"",
+        "descrizione": "Display touch capacitivo<br>sul fronte porta"
+      }
+    ]
+  }
+]

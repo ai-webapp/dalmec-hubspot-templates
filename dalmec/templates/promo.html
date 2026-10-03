@@ -1,0 +1,121 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: DalMec Landing prodotto (promo)
+-->
+<!doctype html>
+<html lang="{{ html_lang|default('it', true) }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page_meta.html_title|default('DalMec | Landing prodotto', true) }}</title>
+    {% if site_settings.favicon_src %}
+      <link rel="shortcut icon" href="{{ site_settings.favicon_src }}" />
+    {% endif %}
+    <meta name="description" content="{{ page_meta.meta_description|default('', true)|escape_attr }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+    {{ require_css(get_asset_url('../css/main.css')) }}
+    {% set style = theme.style if theme and theme.style else {} %}
+    <style>
+      :root {
+        --navy: {{ style.navy.color if style.navy and style.navy.color else '#04192c' }};
+        --blue: {{ style.blue.color if style.blue and style.blue.color else '#2f8fc8' }};
+        --blue-light: {{ style.blue_light.color if style.blue_light and style.blue_light.color else '#6cb8e4' }};
+        --ink: {{ style.ink.color if style.ink and style.ink.color else '#0b1f33' }};
+        --text: {{ style.text.color if style.text and style.text.color else '#33475a' }};
+        --muted: {{ style.muted.color if style.muted and style.muted.color else '#4a5b6c' }};
+        --bg-soft: {{ style.bg_soft.color if style.bg_soft and style.bg_soft.color else '#eef2f5' }};
+        --bg-footer: {{ style.bg_footer.color if style.bg_footer and style.bg_footer.color else '#e4e9ee' }};
+        --line: {{ style.line.color if style.line and style.line.color else '#d5dde5' }};
+        --font: "DM Sans", system-ui, sans-serif;
+      }
+      body { font-family: var(--font); }
+    </style>
+    {{ standard_header_includes }}
+  </head>
+  <body>
+    {% module "lp_header"
+      path="../modules/lp-header.module",
+      label="Header"
+    %}
+
+    {% dnd_area "main_dnd",
+      label="Contenuto principale",
+      class="lp-dnd"
+    %}
+
+      {% dnd_section
+        padding={ "top": 0, "bottom": 0, "left": 0, "right": 0 }
+      %}
+        {% dnd_module path="../modules/lp-hero.module", width=12 %}
+        {% end_dnd_module %}
+      {% end_dnd_section %}
+
+      {% dnd_section
+        padding={ "top": 0, "bottom": 0, "left": 0, "right": 0 }
+      %}
+        {% dnd_module path="../modules/lp-key-numbers.module", width=12 %}
+        {% end_dnd_module %}
+      {% end_dnd_section %}
+
+      {% dnd_section
+        padding={ "top": 0, "bottom": 0, "left": 0, "right": 0 }
+      %}
+        {% dnd_module path="../modules/lp-feature-rows.module", width=12 %}
+        {% end_dnd_module %}
+      {% end_dnd_section %}
+
+      {% dnd_section
+        padding={ "top": 0, "bottom": 0, "left": 0, "right": 0 }
+      %}
+        {% dnd_module path="../modules/lp-functions-grid.module", width=12 %}
+        {% end_dnd_module %}
+      {% end_dnd_section %}
+
+      {% dnd_section
+        padding={ "top": 0, "bottom": 0, "left": 0, "right": 0 }
+      %}
+        {% dnd_module path="../modules/lp-product-closeup.module", width=12 %}
+        {% end_dnd_module %}
+      {% end_dnd_section %}
+
+      {% dnd_section
+        padding={ "top": 0, "bottom": 0, "left": 0, "right": 0 }
+      %}
+        {% dnd_module path="../modules/lp-performance.module", width=12 %}
+        {% end_dnd_module %}
+      {% end_dnd_section %}
+
+      {% dnd_section
+        padding={ "top": 0, "bottom": 0, "left": 0, "right": 0 }
+      %}
+        {% dnd_module path="../modules/lp-models.module", width=12 %}
+        {% end_dnd_module %}
+      {% end_dnd_section %}
+
+      {% dnd_section
+        padding={ "top": 0, "bottom": 0, "left": 0, "right": 0 }
+      %}
+        {% dnd_module path="../modules/lp-sectors.module", width=12 %}
+        {% end_dnd_module %}
+      {% end_dnd_section %}
+
+      {% dnd_section
+        padding={ "top": 0, "bottom": 0, "left": 0, "right": 0 }
+      %}
+        {% dnd_module path="../modules/lp-contact-form.module", width=12 %}
+        {% end_dnd_module %}
+      {% end_dnd_section %}
+
+    {% end_dnd_area %}
+
+    {% module "lp_footer"
+      path="../modules/lp-footer.module",
+      label="Footer"
+    %}
+
+    {{ standard_footer_includes }}
+  </body>
+</html>

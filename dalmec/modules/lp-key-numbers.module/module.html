@@ -1,0 +1,11 @@
+{% set aid = module.anchor_id %}
+<section class="lp-numbers"{% if aid %} id="{{ aid }}"{% endif %}>
+  <div class="lp-container lp-numbers__grid">
+    {% for item in module.items %}
+      <div class="lp-numbers__item">
+        <span class="lp-numbers__value">{{ item.valore }}{% if item.unita %}<span class="lp-numbers__unit"> {{ item.unita }}</span>{% endif %}</span>
+        {% if item.descrizione %}<span class="lp-numbers__desc">{{ item.descrizione|replace('<br>', '\n')|replace('<br/>', '\n')|replace('<br />', '\n') }}</span>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>

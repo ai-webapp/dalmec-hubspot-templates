@@ -1,0 +1,16 @@
+{
+  "label": "DalMec Header",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "PAGE"
+  ],
+  "icon": "layout",
+  "is_available_for_new_content": true,
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "is_enabled_for_new_content": true
+}

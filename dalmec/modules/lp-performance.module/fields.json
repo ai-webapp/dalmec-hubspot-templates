@@ -1,0 +1,89 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "name": "eyebrow",
+    "label": "Eyebrow",
+    "type": "text",
+    "default": "Prestazioni"
+  },
+  {
+    "name": "titolo",
+    "label": "Title",
+    "type": "text",
+    "default": "Numeri misurati, non promesse."
+  },
+  {
+    "name": "nota",
+    "label": "Note",
+    "type": "text",
+    "default": "Dati riferiti al modello PBCG106AC, condensazione e sbrinamento ad aria."
+  },
+  {
+    "name": "metrics",
+    "label": "Metrics",
+    "type": "group",
+    "occurrence": {
+      "min": 3,
+      "max": 9,
+      "default": 6,
+      "sorting_label_field": "metric_label"
+    },
+    "children": [
+      {
+        "name": "metric_label",
+        "label": "Label",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "valore",
+        "label": "Value",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "dettaglio",
+        "label": "Detail",
+        "type": "text",
+        "default": ""
+      }
+    ],
+    "default": [
+      {
+        "valore": "40,0 kg",
+        "dettaglio": "da +90 a +3 °C",
+        "metric_label": "Resa abbattimento"
+      },
+      {
+        "valore": "30,0 kg",
+        "dettaglio": "fino a −18 °C",
+        "metric_label": "Resa congelamento"
+      },
+      {
+        "valore": "6073 W",
+        "dettaglio": "2124 W a −40 °C",
+        "metric_label": "Resa frigorifera"
+      },
+      {
+        "valore": "3300 W",
+        "dettaglio": "AC400V 3N+T 50Hz",
+        "metric_label": "Potenza assorbita"
+      },
+      {
+        "valore": "60 mm",
+        "dettaglio": "poliuretano ad alta densità",
+        "metric_label": "Isolamento"
+      },
+      {
+        "valore": "≥ +20 °C",
+        "dettaglio": "temperatura minima",
+        "metric_label": "Ambiente di esercizio"
+      }
+    ]
+  }
+]

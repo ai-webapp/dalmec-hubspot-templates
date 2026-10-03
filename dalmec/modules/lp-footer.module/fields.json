@@ -1,0 +1,127 @@
+[
+  {
+    "name": "anchor_id",
+    "label": "Anchor ID",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "name": "colonne",
+    "label": "Columns",
+    "type": "group",
+    "occurrence": {
+      "min": 1,
+      "max": 6,
+      "default": 3,
+      "sorting_label_field": "titolo"
+    },
+    "children": [
+      {
+        "name": "titolo",
+        "label": "Title",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "sottotitolo",
+        "label": "Subtitle",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "name": "testo",
+        "label": "Text",
+        "type": "richtext",
+        "default": ""
+      }
+    ],
+    "default": [
+      {
+        "titolo": "SEDE OPERATIVA",
+        "sottotitolo": "Dalmec – Refrigeration",
+        "testo": "<p>Via Fabio Filzi, 46<br>31036 Istrana (Treviso) Italia</p>"
+      },
+      {
+        "titolo": "SEDE LEGALE",
+        "sottotitolo": "Dal Santo Srl",
+        "testo": "<p>Via Sant'Anna, 38<br>31050 Fossalunga di Vedelago (Treviso) Italia</p>"
+      },
+      {
+        "titolo": "RECAPITI",
+        "sottotitolo": "",
+        "testo": "<p>Telefono +39 0422 832679<br>Fax +39 0422 677043<br>info@dal-mec.it</p>"
+      }
+    ]
+  },
+  {
+    "name": "copyright",
+    "label": "Copyright",
+    "type": "text",
+    "default": "© 2026 Dal Santo Srl. Tutti i diritti riservati."
+  },
+  {
+    "name": "piva",
+    "label": "P. IVA",
+    "type": "text",
+    "default": "P. IVA 04207260268"
+  },
+  {
+    "name": "link_legali",
+    "label": "Legal links",
+    "type": "group",
+    "occurrence": {
+      "min": 0,
+      "max": 6,
+      "default": 2,
+      "sorting_label_field": "link_label"
+    },
+    "children": [
+      {
+        "name": "link_label",
+        "label": "Label",
+        "type": "text",
+        "default": "Privacy Policy"
+      },
+      {
+        "name": "url",
+        "label": "URL",
+        "type": "link",
+        "default": {
+          "url": {
+            "type": "EXTERNAL",
+            "href": "#",
+            "content_id": null
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      }
+    ],
+    "default": [
+      {
+        "url": {
+          "url": {
+            "type": "EXTERNAL",
+            "href": "#",
+            "content_id": null
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        },
+        "link_label": "Privacy Policy"
+      },
+      {
+        "url": {
+          "url": {
+            "type": "EXTERNAL",
+            "href": "#",
+            "content_id": null
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        },
+        "link_label": "Cookie Policy"
+      }
+    ]
+  }
+]

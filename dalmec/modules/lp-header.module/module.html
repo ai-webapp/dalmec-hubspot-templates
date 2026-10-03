@@ -1,0 +1,33 @@
+{% set aid = module.anchor_id %}
+{% set cta_href = module.cta_link.url.href if module.cta_link and module.cta_link.url else "#contatti" %}
+<header class="lp-header"{% if aid %} id="{{ aid }}"{% endif %}>
+  <div class="lp-container lp-header__inner">
+    <div class="lp-header__brand">
+      {% if module.logo.src %}
+        <img
+          class="lp-header__logo-img"
+          src="{{ module.logo.src }}"
+          alt="{{ module.logo.alt|default('DalMec', true)|escape_attr }}"
+          loading="eager"
+          decoding="async"
+          {% if module.logo.width %}width="{{ module.logo.width }}"{% endif %}
+          {% if module.logo.height %}height="{{ module.logo.height }}"{% endif %}
+        >
+      {% else %}
+        <span class="lp-header__wordmark">DALMEC</span>
+      {% endif %}
+      {% if module.payoff %}<span class="lp-header__payoff">{{ module.payoff }}</span>{% endif %}
+    </div>
+    <div class="lp-header__actions">
+      {% if module.telefono %}
+        <a class="lp-header__phone" href="tel:{{ module.telefono|replace(' ', '') }}">
+          {% if module.telefono_label %}<span class="lp-header__phone-label">{{ module.telefono_label }}</span>{% endif %}
+          {{ module.telefono }}
+        </a>
+      {% endif %}
+      {% if module.cta_label %}
+        <a class="lp-btn lp-btn--primary lp-btn--sm" href="{{ cta_href }}">{{ module.cta_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</header>

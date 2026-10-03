@@ -1,0 +1,39 @@
+{% set aid = module.anchor_id %}
+<section class="lp-closeup"{% if aid %} id="{{ aid }}"{% endif %}>
+  <div class="lp-container lp-closeup__grid">
+    <div class="lp-media lp-closeup__media">
+      {% if module.immagine.src %}
+        <img
+          src="{{ module.immagine.src }}"
+          alt="{{ module.immagine.alt|default(module.titolo, true)|escape_attr }}"
+          loading="lazy"
+          decoding="async"
+          {% if module.immagine.width %}width="{{ module.immagine.width }}"{% endif %}
+          {% if module.immagine.height %}height="{{ module.immagine.height }}"{% endif %}
+        >
+      {% else %}
+        <div class="lp-media__ph">closeup</div>
+      {% endif %}
+      {% for spot in module.hotspots %}
+        <span class="lp-closeup__marker" style="left: {{ spot.posizione_x }}%; top: {{ spot.posizione_y }}%;">{{ loop.index }}</span>
+      {% endfor %}
+    </div>
+    <div class="lp-closeup__copy">
+      <div>
+        {% if module.eyebrow %}<span class="lp-eyebrow">{{ module.eyebrow }}</span>{% endif %}
+        {% if module.titolo %}<h2 class="lp-h2" style="margin-top:16px">{{ module.titolo }}</h2>{% endif %}
+      </div>
+      <div class="lp-closeup__list">
+        {% for spot in module.hotspots %}
+          <div class="lp-closeup__item">
+            <span class="lp-closeup__num">{{ loop.index }}</span>
+            <div>
+              {% if spot.titolo %}<strong>{{ spot.titolo }}</strong>{% endif %}
+              {% if spot.testo %}<span>{{ spot.testo }}</span>{% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
