@@ -1,5 +1,5 @@
 {% set aid = module.anchor_id|default('modelli', true) %}
-<section class="lp-models" id="{{ aid }}">
+<section class="lp-models" id="{{ aid }}" data-lp-models="true">
   <div class="lp-container lp-models__inner">
     <div class="lp-models__head">
       {% if module.eyebrow %}<span class="lp-eyebrow">{{ module.eyebrow }}</span>{% endif %}
@@ -28,14 +28,44 @@
             <div class="lp-model__col">
               <span class="lp-model__col-label">Download</span>
               {% for dl in model.downloads %}
-                <a class="lp-model__dl" href="{{ dl.url|default('#', true) }}">
-                  <span>{{ dl.download_label }}</span>
-                  {% if dl.tipo == "richiedi" %}
+                {% set dl_label = dl.download_label|default(dl.label, true)|default('Scheda tecnica', true) %}
+                {% if dl.tipo == "richiedi" %}
+                  <a class="lp-model__dl" href="{{ dl.url|default('#contatti', true) }}">
+                    <span>{{ dl_label }}</span>
                     <strong class="lp-model__dl-action--mute">Richiedi</strong>
-                  {% else %}
-                    <strong class="lp-model__dl-action">↓ Scarica</strong>
-                  {% endif %}
-                </a>
+                  </a>
+                {% else %}
+                  {% set pdf_filename = 'scheda-' ~ (model.codice|default('modello', true)) %}
+                  <div class="lp-model__dl-wrap">
+                    <button
+                      type="button"
+                      class="lp-model__dl lp-model__dl--btn js-model-pdf-btn"
+                      data-model-pdf-btn
+                    >
+                      <span>{{ dl_label }}</span>
+                      <strong class="lp-model__dl-action">↓ Scarica</strong>
+                    </button>
+                    <script type="application/json" class="js-model-pdf-data" data-model-pdf-data>
+                      {
+                        "title": {{ dl_label|tojson }},
+                        "codice": {{ model.codice|default('', true)|tojson }},
+                        "descrizione": {{ model.descrizione|default('', true)|tojson }},
+                        "filename": {{ pdf_filename|tojson }},
+                        "specs_heading": "Specifiche tecniche",
+                        "image_src": {{ module.immagine_prodotto.src|default('', true)|tojson }},
+                        "image_alt": {{ module.immagine_prodotto.alt|default('', true)|tojson }},
+                        "specs": [
+                          {% for spec in model.specs %}
+                            {
+                              "chiave": {{ spec.chiave|default('', true)|tojson }},
+                              "valore": {{ spec.valore|default('', true)|tojson }}
+                            }{% if not loop.last %},{% endif %}
+                          {% endfor %}
+                        ]
+                      }
+                    </script>
+                  </div>
+                {% endif %}
               {% endfor %}
             </div>
           </div>

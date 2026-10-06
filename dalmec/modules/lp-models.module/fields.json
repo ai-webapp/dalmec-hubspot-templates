@@ -24,6 +24,18 @@
     "default": true
   },
   {
+    "name": "immagine_prodotto",
+    "label": "Product image (PDF)",
+    "help_text": "Shared product photo included in generated datasheet PDFs for all models.",
+    "type": "image",
+    "default": {
+      "src": "",
+      "alt": "Foto prodotto GOLD 10",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  {
     "name": "models",
     "label": "Models",
     "type": "group",
@@ -171,7 +183,7 @@
             "tipo": "scarica"
           },
           {
-            "label": "Scheda tecnica neutra",
+            "label": "Scheda tecnica",
             "url": "#",
             "tipo": "scarica"
           },
@@ -238,7 +250,7 @@
             "tipo": "scarica"
           },
           {
-            "label": "Scheda tecnica neutra",
+            "label": "Scheda tecnica",
             "url": "#",
             "tipo": "scarica"
           },
@@ -305,7 +317,7 @@
             "tipo": "scarica"
           },
           {
-            "label": "Scheda tecnica neutra",
+            "label": "Scheda tecnica",
             "url": "#",
             "tipo": "scarica"
           },

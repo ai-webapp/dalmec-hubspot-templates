@@ -20,8 +20,28 @@ Implementare MVP da `tasks/PRD-dalmec-landing.md`: theme `dalmec/`, template `pr
 - [x] 🟢 CSS landing (token + componenti + `.hs-form`)
 - [x] 🟡 Upload `dalmec` → Design Manager (2662982) — da `/tmp` (fix path `.cursor` + validazione fields/meta)
 
+### STAND BY (EN landing)
+- [ ] 🟡 Creare landing EN `/eng` via API (serve scope `content` sul PAK) — payload pronto
+- [ ] 🟢 Verificare URL EN
+
+### Product close-up hover (desktop)
+- [x] 🟡 Marker button + highlight lista bidirezionale (A+C)
+
+### Mobile feature rows
+- [x] 🟢 Mobile: sempre immagine → testo (CSS order)
+
+### Models PDF — Opzione 1 (jsPDF come MICS)
+- [x] 🟡 OK utente a implementare
+- [x] 🟡 `module.html`: bottone + JSON HubL per `tipo=scarica`
+- [x] 🔴 `module.js`: lazy-load jsPDF → PDF scheda tecnica
+- [x] 🟢 `tipo=richiedi` resta link
+- [x] 🟢 CSS bottone download
+- [x] 🟢 Upload theme su bizen-test (module.js + css + html)
+- [x] 🟢 Rinomina download: «Scheda tecnica neutra» → «Scheda tecnica»
+- [x] 🟡 Foto prodotto condivisa nel PDF (campo `immagine_prodotto` + jsPDF)
+
 ### Fuori MVP (non ora)
-- [ ] Email, istanze IT/EN, logo file, foto finali
+- [ ] Email, logo file, foto finali, PDF ufficiali HubSpot (se diversi da generati)
 
 ## 🎓 Nuovi Concetti
 - [ ] HubSpot module (`fields.json` + `module.html` + `meta.json`)
