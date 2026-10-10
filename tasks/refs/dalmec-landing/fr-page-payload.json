@@ -1,0 +1,1112 @@
+{
+  "archivedInDashboard": false,
+  "attachedStylesheets": [],
+  "categoryId": 1,
+  "contentTypeCategory": 1,
+  "domain": "",
+  "featuredImage": "",
+  "featuredImageAltText": "",
+  "htmlTitle": "GOLD 10 | Abatteur DalMec",
+  "layoutSections": {
+    "main_dnd": {
+      "cells": [],
+      "cssClass": "",
+      "cssId": "",
+      "cssStyle": "",
+      "label": "Contenu principal",
+      "name": "main_dnd",
+      "params": {},
+      "rowMetaData": [
+        {
+          "cssClass": "dnd-section",
+          "styles": {
+            "breakpointStyles": {
+              "default": {
+                "padding": {
+                  "bottom": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "left": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "right": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "top": {
+                    "units": "px",
+                    "value": 0
+                  }
+                }
+              }
+            },
+            "forceFullWidthSection": false
+          }
+        },
+        {
+          "cssClass": "dnd-section",
+          "styles": {
+            "breakpointStyles": {
+              "default": {
+                "padding": {
+                  "bottom": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "left": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "right": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "top": {
+                    "units": "px",
+                    "value": 0
+                  }
+                }
+              }
+            },
+            "forceFullWidthSection": false
+          }
+        },
+        {
+          "cssClass": "dnd-section",
+          "styles": {
+            "breakpointStyles": {
+              "default": {
+                "padding": {
+                  "bottom": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "left": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "right": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "top": {
+                    "units": "px",
+                    "value": 0
+                  }
+                }
+              }
+            },
+            "forceFullWidthSection": false
+          }
+        },
+        {
+          "cssClass": "dnd-section",
+          "styles": {
+            "breakpointStyles": {
+              "default": {
+                "padding": {
+                  "bottom": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "left": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "right": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "top": {
+                    "units": "px",
+                    "value": 0
+                  }
+                }
+              }
+            },
+            "forceFullWidthSection": false
+          }
+        },
+        {
+          "cssClass": "dnd-section",
+          "styles": {
+            "breakpointStyles": {
+              "default": {
+                "padding": {
+                  "bottom": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "left": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "right": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "top": {
+                    "units": "px",
+                    "value": 0
+                  }
+                }
+              }
+            },
+            "forceFullWidthSection": false
+          }
+        },
+        {
+          "cssClass": "dnd-section",
+          "styles": {
+            "breakpointStyles": {
+              "default": {
+                "padding": {
+                  "bottom": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "left": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "right": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "top": {
+                    "units": "px",
+                    "value": 0
+                  }
+                }
+              }
+            },
+            "forceFullWidthSection": false
+          }
+        },
+        {
+          "cssClass": "dnd-section",
+          "styles": {
+            "breakpointStyles": {
+              "default": {
+                "padding": {
+                  "bottom": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "left": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "right": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "top": {
+                    "units": "px",
+                    "value": 0
+                  }
+                }
+              }
+            },
+            "forceFullWidthSection": false
+          }
+        },
+        {
+          "cssClass": "dnd-section",
+          "styles": {
+            "breakpointStyles": {
+              "default": {
+                "padding": {
+                  "bottom": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "left": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "right": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "top": {
+                    "units": "px",
+                    "value": 0
+                  }
+                }
+              }
+            },
+            "forceFullWidthSection": false
+          }
+        },
+        {
+          "cssClass": "dnd-section",
+          "styles": {
+            "breakpointStyles": {
+              "default": {
+                "padding": {
+                  "bottom": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "left": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "right": {
+                    "units": "px",
+                    "value": 0
+                  },
+                  "top": {
+                    "units": "px",
+                    "value": 0
+                  }
+                }
+              }
+            },
+            "forceFullWidthSection": false
+          }
+        }
+      ],
+      "rows": [
+        {
+          "0": {
+            "cells": [],
+            "cssClass": "",
+            "cssId": "",
+            "cssStyle": "",
+            "name": "main_dnd-module-1",
+            "params": {
+              "anchor_id": "top",
+              "badge_1": "ARRIVÉE 2026",
+              "badge_2": "Abatteurs",
+              "titolo": "GOLD",
+              "sottotitolo": "10 GN 1/1 · bacs EN 600×400",
+              "lead": "<p>40 kg refroidis de +90 à +3 °C en un seul cycle, sur une emprise de 82 × 86 cm. Nettoyage sans outils et commande tactile 7\".</p>",
+              "cta_primaria_label": "Demander un devis",
+              "cta_primaria_link": {
+                "url": {
+                  "type": "EXTERNAL",
+                  "href": "#contatti",
+                  "content_id": null
+                },
+                "open_in_new_tab": false,
+                "no_follow": false
+              },
+              "cta_secondaria_label": "Télécharger la fiche technique",
+              "cta_secondaria_link": {
+                "no_follow": false,
+                "open_in_new_tab": false,
+                "url": {
+                  "href": "#modelli",
+                  "type": "EXTERNAL"
+                }
+              },
+              "immagine_prodotto": {
+                "alt": "Abatteur industriel en acier inoxydable Dalmec",
+                "height": 1000,
+                "src": "https://2662982.fs1.hubspotusercontent-na1.net/hubfs/2662982/Abbattitore%20industriale%20in%20acciaio%20inox.DALMEC-1.png",
+                "width": 750
+              },
+              "child_css": {},
+              "css": {},
+              "css_class": "dnd-module",
+              "path": "../modules/lp-hero.module",
+              "schema_version": 2,
+              "smart_objects": [],
+              "smart_type": "NOT_SMART",
+              "wrap_field_tag": "div"
+            },
+            "rowMetaData": [],
+            "rows": [],
+            "type": "custom_widget",
+            "w": 12,
+            "x": 0
+          }
+        },
+        {
+          "0": {
+            "cells": [],
+            "cssClass": "",
+            "cssId": "",
+            "cssStyle": "",
+            "name": "main_dnd-module-2",
+            "params": {
+              "anchor_id": "",
+              "items": [
+                {
+                  "valore": "40",
+                  "unita": "kg",
+                  "descrizione": "Rendement en refroidissement<br>de +90 à +3 °C"
+                },
+                {
+                  "valore": "30",
+                  "unita": "kg",
+                  "descrizione": "Rendement en surgélation<br>jusqu’à −18 °C à cœur"
+                },
+                {
+                  "valore": "−40",
+                  "unita": "°C",
+                  "descrizione": "Température minimale<br>de l’enceinte"
+                },
+                {
+                  "valore": "7",
+                  "unita": "\"",
+                  "descrizione": "Écran tactile capacitif<br>en façade de porte"
+                }
+              ],
+              "child_css": {},
+              "css": {},
+              "css_class": "dnd-module",
+              "path": "../modules/lp-key-numbers.module",
+              "schema_version": 2,
+              "smart_objects": [],
+              "smart_type": "NOT_SMART",
+              "wrap_field_tag": "div"
+            },
+            "rowMetaData": [],
+            "rows": [],
+            "type": "custom_widget",
+            "w": 12,
+            "x": 0
+          }
+        },
+        {
+          "0": {
+            "cells": [],
+            "cssClass": "",
+            "cssId": "",
+            "cssStyle": "",
+            "name": "main_dnd-module-3",
+            "params": {
+              "anchor_id": "",
+              "eyebrow": "Pourquoi GOLD",
+              "titolo_sezione": "Conçu autour des détails qui font la différence en cuisine.",
+              "rows": [
+                {
+                  "bullet": [
+                    {
+                      "testo": "Joint magnétique à sept chambres, facile à retirer"
+                    },
+                    {
+                      "testo": "Glissières amovibles en acier inox AISI 304"
+                    }
+                  ],
+                  "immagine": {
+                    "alt": "Image produit GOLD — nettoyage",
+                    "height": 1254,
+                    "src": "https://2662982.fs1.hubspotusercontent-na1.net/hubfs/2662982/Immagine%20ChatGPT%203%20ott%202026%2c%2017_59_57-3.png",
+                    "width": 1254
+                  },
+                  "testo": "<p>L’évaporateur à revêtement cataphorèse est accessible en ouvrant la porte des ventilateurs depuis l’intérieur de l’enceinte. Moins de résidus, meilleure hygiène, sans technicien.</p>",
+                  "titolo": "Nettoyage en quelques minutes, sans outils."
+                },
+                {
+                  "bullet": [
+                    {
+                      "testo": "Double format : Gastronorm et Euronorm"
+                    },
+                    {
+                      "testo": "Pieds réglables en acier inox AISI 304"
+                    }
+                  ],
+                  "immagine": {
+                    "alt": "Image produit GOLD — capacité",
+                    "height": 1254,
+                    "src": "https://2662982.fs1.hubspotusercontent-na1.net/hubfs/2662982/Immagine%20ChatGPT%203%20ott%202026%2c%2017_59_58-4.png",
+                    "width": 1254
+                  },
+                  "testo": "<p>Accueille des bacs GN 1/1 ou EN 600×400 sur une emprise de 820 × 860 mm. Capacité d’abatteur pâtisserie dans un encombrement de cuisine professionnelle.</p>",
+                  "titolo": "10 bacs sur moins d’un mètre carré."
+                },
+                {
+                  "bullet": [
+                    {
+                      "testo": "Fin de cycle par température ou par temps"
+                    },
+                    {
+                      "testo": "Sonde à cœur chauffante disponible en option"
+                    }
+                  ],
+                  "immagine": {
+                    "alt": "Image produit GOLD — commande",
+                    "height": 1254,
+                    "src": "https://2662982.fs1.hubspotusercontent-na1.net/hubfs/2662982/Immagine%20ChatGPT%203%20ott%202026%2c%2017_59_56-1.png",
+                    "width": 1254
+                  },
+                  "testo": "<p>Écran tactile capacitif 7\" en façade de porte. Refroidir ou surgeler, par température à cœur ou par temps : réglez le cycle en un geste.</p>",
+                  "titolo": "Un toucher pour choisir le bon cycle."
+                },
+                {
+                  "bullet": [
+                    {
+                      "testo": "Fluide frigorigène R455a à faible GWP"
+                    },
+                    {
+                      "testo": "Température d’enceinte de −40 à +10 °C"
+                    }
+                  ],
+                  "immagine": {
+                    "alt": "Image produit GOLD — isolation",
+                    "height": 1254,
+                    "src": "https://2662982.fs1.hubspotusercontent-na1.net/hubfs/2662982/Immagine%20ChatGPT%203%20ott%202026%2c%2017_59_57-2.png",
+                    "width": 1254
+                  },
+                  "testo": "<p>Isolation de 60 mm et porte à fermeture automatique avec ouverture fixe à 100°. Température stable, cristaux de glace fins, texture et saveur préservées.</p>",
+                  "titolo": "Le froid reste à l’intérieur. La qualité aussi."
+                }
+              ],
+              "child_css": {},
+              "css": {},
+              "css_class": "dnd-module",
+              "path": "../modules/lp-feature-rows.module",
+              "schema_version": 2,
+              "smart_objects": [],
+              "smart_type": "NOT_SMART",
+              "wrap_field_tag": "div"
+            },
+            "rowMetaData": [],
+            "rows": [],
+            "type": "custom_widget",
+            "w": 12,
+            "x": 0
+          }
+        },
+        {
+          "0": {
+            "cells": [],
+            "cssClass": "",
+            "cssId": "",
+            "cssStyle": "",
+            "name": "main_dnd-module-4",
+            "params": {
+              "anchor_id": "",
+              "eyebrow": "Fonctions",
+              "titolo_sezione": "Tout ce qu’il faut, de série.",
+              "cells": [
+                {
+                  "icona": "thermometer",
+                  "testo": "Jusqu’à +3 °C à cœur pour stocker en toute sécurité les produits cuits et semi-finis.",
+                  "titolo": "Refroidissement positif"
+                },
+                {
+                  "icona": "snowflake",
+                  "testo": "Jusqu’à −18 °C à cœur pour une conservation longue sans perte de qualité.",
+                  "titolo": "Surgélation"
+                },
+                {
+                  "icona": "clock",
+                  "testo": "S’arrête lorsque la température à cœur est atteinte ou lorsque le temps réglé est écoulé.",
+                  "titolo": "Cycle par sonde ou par temps"
+                },
+                {
+                  "icona": "droplet",
+                  "testo": "Évacuation par gravité vers un bac via un tuyau dédié. Kit d’évaporation disponible.",
+                  "titolo": "Évacuation des condensats"
+                },
+                {
+                  "icona": "door",
+                  "testo": "Ouverture fixe à 100° pour un chargement à deux mains.",
+                  "titolo": "Porte à fermeture automatique"
+                },
+                {
+                  "icona": "thermometer",
+                  "testo": "À air ou à gaz chaud, selon le modèle.",
+                  "titolo": "Dégivrage"
+                }
+              ],
+              "child_css": {},
+              "css": {},
+              "css_class": "dnd-module",
+              "path": "../modules/lp-functions-grid.module",
+              "schema_version": 2,
+              "smart_objects": [],
+              "smart_type": "NOT_SMART",
+              "wrap_field_tag": "div"
+            },
+            "rowMetaData": [],
+            "rows": [],
+            "type": "custom_widget",
+            "w": 12,
+            "x": 0
+          }
+        },
+        {
+          "0": {
+            "cells": [],
+            "cssClass": "",
+            "cssId": "",
+            "cssStyle": "",
+            "name": "main_dnd-module-5",
+            "params": {
+              "anchor_id": "",
+              "eyebrow": "De près",
+              "titolo": "Chaque composant a une raison d’être.",
+              "immagine": {
+                "alt": "Abatteur industriel Dalmec en acier inoxydable",
+                "height": 1400,
+                "src": "https://2662982.fs1.hubspotusercontent-na1.net/hubfs/2662982/Abbattitore%20Industriale%20Dalmec%20in%20Acciaio%20Inox.png",
+                "width": 1400
+              },
+              "hotspots": [
+                {
+                  "posizione_x": 30,
+                  "posizione_y": 40,
+                  "testo": "Commandes claires, lisibles même à distance.",
+                  "titolo": "Écran tactile 7\""
+                },
+                {
+                  "posizione_x": 60,
+                  "posizione_y": 50,
+                  "testo": "Joint magnétique — à retirer et laver.",
+                  "titolo": "Joint à 7 chambres"
+                },
+                {
+                  "posizione_x": 38,
+                  "posizione_y": 72,
+                  "testo": "Condensation à air ou à eau.",
+                  "titolo": "Compartiment technique frontal"
+                },
+                {
+                  "posizione_x": 60,
+                  "posizione_y": 87,
+                  "testo": "AISI 304, pour un nivellement parfait.",
+                  "titolo": "Pieds inox réglables"
+                }
+              ],
+              "child_css": {},
+              "css": {},
+              "css_class": "dnd-module",
+              "path": "../modules/lp-product-closeup.module",
+              "schema_version": 2,
+              "smart_objects": [],
+              "smart_type": "NOT_SMART",
+              "wrap_field_tag": "div"
+            },
+            "rowMetaData": [],
+            "rows": [],
+            "type": "custom_widget",
+            "w": 12,
+            "x": 0
+          }
+        },
+        {
+          "0": {
+            "cells": [],
+            "cssClass": "",
+            "cssId": "",
+            "cssStyle": "",
+            "name": "main_dnd-module-6",
+            "params": {
+              "anchor_id": "",
+              "eyebrow": "Performances",
+              "titolo": "Des chiffres mesurés, pas des promesses.",
+              "nota": "Données pour le modèle PBCG106AC, condensation à air et dégivrage à air.",
+              "metrics": [
+                {
+                  "valore": "40,0 kg",
+                  "dettaglio": "de +90 à +3 °C",
+                  "metric_label": "Rendement en refroidissement"
+                },
+                {
+                  "valore": "30,0 kg",
+                  "dettaglio": "jusqu’à −18 °C",
+                  "metric_label": "Rendement en surgélation"
+                },
+                {
+                  "valore": "6073 W",
+                  "dettaglio": "2124 W à −40 °C",
+                  "metric_label": "Puissance frigorifique"
+                },
+                {
+                  "valore": "3300 W",
+                  "dettaglio": "AC400V 3N+T 50Hz",
+                  "metric_label": "Puissance absorbée"
+                },
+                {
+                  "valore": "60 mm",
+                  "dettaglio": "polyuréthane haute densité",
+                  "metric_label": "Isolation"
+                },
+                {
+                  "valore": "≥ +20 °C",
+                  "dettaglio": "température minimale",
+                  "metric_label": "Ambiance de fonctionnement"
+                }
+              ],
+              "child_css": {},
+              "css": {},
+              "css_class": "dnd-module",
+              "path": "../modules/lp-performance.module",
+              "schema_version": 2,
+              "smart_objects": [],
+              "smart_type": "NOT_SMART",
+              "wrap_field_tag": "div"
+            },
+            "rowMetaData": [],
+            "rows": [],
+            "type": "custom_widget",
+            "w": 12,
+            "x": 0
+          }
+        },
+        {
+          "0": {
+            "cells": [],
+            "cssClass": "",
+            "cssId": "",
+            "cssStyle": "",
+            "name": "main_dnd-module-7",
+            "params": {
+              "anchor_id": "modelli",
+              "eyebrow": "Versions",
+              "titolo": "Modèles disponibles",
+              "apri_primo": true,
+              "models": [
+                {
+                  "codice": "PBCG106AC",
+                  "descrizione": "Condensation à air · Dégivrage à air",
+                  "specs": [
+                    {
+                      "chiave": "Condensation",
+                      "valore": "Air"
+                    },
+                    {
+                      "chiave": "Dégivrage",
+                      "valore": "Air"
+                    },
+                    {
+                      "chiave": "Dimensions",
+                      "valore": "820×860×1470 mm"
+                    },
+                    {
+                      "chiave": "Poids net",
+                      "valore": "188 kg"
+                    },
+                    {
+                      "chiave": "Température",
+                      "valore": "−40 / +10 °C"
+                    },
+                    {
+                      "chiave": "Rendement en refroidissement",
+                      "valore": "40,0 kg (+90/+3)"
+                    },
+                    {
+                      "chiave": "Rendement en surgélation",
+                      "valore": "30,0 kg"
+                    },
+                    {
+                      "chiave": "Puissance frigorifique",
+                      "valore": "6073 / 2124 W"
+                    },
+                    {
+                      "chiave": "Puissance absorbée",
+                      "valore": "3300 W"
+                    },
+                    {
+                      "chiave": "Alimentation",
+                      "valore": "AC400V 3N+T 50Hz"
+                    },
+                    {
+                      "chiave": "Capacité de charge",
+                      "valore": "N.10 GN 1/1 ou EN 600×400"
+                    }
+                  ],
+                  "downloads": [
+                    {
+                      "label": "Fiche technique Dalmec",
+                      "url": "#",
+                      "tipo": "scarica",
+                      "download_label": "Fiche technique Dalmec"
+                    },
+                    {
+                      "label": "Fiche technique neutre",
+                      "url": "#",
+                      "tipo": "scarica",
+                      "download_label": "Fiche technique neutre"
+                    },
+                    {
+                      "label": "Manuel et plan 2D",
+                      "url": "#contatti",
+                      "tipo": "richiedi",
+                      "download_label": "Manuel et plan 2D"
+                    }
+                  ]
+                },
+                {
+                  "codice": "PBCG106HG",
+                  "descrizione": "Condensation à air · Dégivrage à gaz chaud",
+                  "specs": [
+                    {
+                      "chiave": "Condensation",
+                      "valore": "Air"
+                    },
+                    {
+                      "chiave": "Dégivrage",
+                      "valore": "Gaz chaud"
+                    },
+                    {
+                      "chiave": "Dimensions",
+                      "valore": "820×860×1470 mm"
+                    },
+                    {
+                      "chiave": "Poids net",
+                      "valore": "188 kg"
+                    },
+                    {
+                      "chiave": "Température",
+                      "valore": "−40 / +10 °C"
+                    },
+                    {
+                      "chiave": "Rendement en refroidissement",
+                      "valore": "40,0 kg (+90/+3)"
+                    },
+                    {
+                      "chiave": "Rendement en surgélation",
+                      "valore": "30,0 kg"
+                    },
+                    {
+                      "chiave": "Puissance frigorifique",
+                      "valore": "6073 / 2124 W"
+                    },
+                    {
+                      "chiave": "Puissance absorbée",
+                      "valore": "3300 W"
+                    },
+                    {
+                      "chiave": "Alimentation",
+                      "valore": "AC400V 3N+T 50Hz"
+                    },
+                    {
+                      "chiave": "Capacité de charge",
+                      "valore": "N.10 GN 1/1 ou EN 600×400"
+                    }
+                  ],
+                  "downloads": [
+                    {
+                      "label": "Fiche technique Dalmec",
+                      "url": "#",
+                      "tipo": "scarica",
+                      "download_label": "Fiche technique Dalmec"
+                    },
+                    {
+                      "label": "Fiche technique neutre",
+                      "url": "#",
+                      "tipo": "scarica",
+                      "download_label": "Fiche technique neutre"
+                    },
+                    {
+                      "label": "Manuel et plan 2D",
+                      "url": "#contatti",
+                      "tipo": "richiedi",
+                      "download_label": "Manuel et plan 2D"
+                    }
+                  ]
+                },
+                {
+                  "codice": "PBCG106WC",
+                  "descrizione": "Condensation à eau · Dégivrage à air",
+                  "specs": [
+                    {
+                      "chiave": "Condensation",
+                      "valore": "Eau"
+                    },
+                    {
+                      "chiave": "Dégivrage",
+                      "valore": "Air"
+                    },
+                    {
+                      "chiave": "Dimensions",
+                      "valore": "820×860×1470 mm"
+                    },
+                    {
+                      "chiave": "Poids net",
+                      "valore": "188 kg"
+                    },
+                    {
+                      "chiave": "Température",
+                      "valore": "−40 / +10 °C"
+                    },
+                    {
+                      "chiave": "Rendement en refroidissement",
+                      "valore": "40,0 kg (+90/+3)"
+                    },
+                    {
+                      "chiave": "Rendement en surgélation",
+                      "valore": "30,0 kg"
+                    },
+                    {
+                      "chiave": "Puissance frigorifique",
+                      "valore": "6073 / 2124 W"
+                    },
+                    {
+                      "chiave": "Puissance absorbée",
+                      "valore": "3300 W"
+                    },
+                    {
+                      "chiave": "Alimentation",
+                      "valore": "AC400V 3N+T 50Hz"
+                    },
+                    {
+                      "chiave": "Capacité de charge",
+                      "valore": "N.10 GN 1/1 ou EN 600×400"
+                    }
+                  ],
+                  "downloads": [
+                    {
+                      "label": "Fiche technique Dalmec",
+                      "url": "#",
+                      "tipo": "scarica",
+                      "download_label": "Fiche technique Dalmec"
+                    },
+                    {
+                      "label": "Fiche technique neutre",
+                      "url": "#",
+                      "tipo": "scarica",
+                      "download_label": "Fiche technique neutre"
+                    },
+                    {
+                      "label": "Manuel et plan 2D",
+                      "url": "#contatti",
+                      "tipo": "richiedi",
+                      "download_label": "Manuel et plan 2D"
+                    }
+                  ]
+                }
+              ],
+              "child_css": {},
+              "css": {},
+              "css_class": "dnd-module",
+              "path": "../modules/lp-models.module",
+              "schema_version": 2,
+              "smart_objects": [],
+              "smart_type": "NOT_SMART",
+              "wrap_field_tag": "div"
+            },
+            "rowMetaData": [],
+            "rows": [],
+            "type": "custom_widget",
+            "w": 12,
+            "x": 0
+          }
+        },
+        {
+          "0": {
+            "cells": [],
+            "cssClass": "",
+            "cssId": "",
+            "cssStyle": "",
+            "name": "main_dnd-module-8",
+            "params": {
+              "anchor_id": "",
+              "eyebrow": "Secteurs",
+              "titolo": "Idéal pour",
+              "sectors": [
+                {
+                  "immagine": {
+                    "src": "",
+                    "alt": "Photo glacier",
+                    "width": 1200,
+                    "height": 900
+                  },
+                  "nome": "Glacerie",
+                  "testo": "Durcissement rapide des bacs et semifreddo.",
+                  "colore_bordo": {
+                    "color": "#c7a6d2",
+                    "opacity": 100
+                  }
+                },
+                {
+                  "immagine": {
+                    "src": "",
+                    "alt": "Photo boulangerie",
+                    "width": 1200,
+                    "height": 900
+                  },
+                  "nome": "Boulangerie",
+                  "testo": "Pâtes et produits cuits prêts au bon moment.",
+                  "colore_bordo": {
+                    "color": "#dd4a3a",
+                    "opacity": 100
+                  }
+                },
+                {
+                  "immagine": {
+                    "src": "",
+                    "alt": "Photo pâtisserie",
+                    "width": 1200,
+                    "height": 900
+                  },
+                  "nome": "Pâtisserie",
+                  "testo": "Bacs EN 600×400 pour mousses, crèmes et portions individuelles.",
+                  "colore_bordo": {
+                    "color": "#e9b97a",
+                    "opacity": 100
+                  }
+                },
+                {
+                  "immagine": {
+                    "src": "",
+                    "alt": "Photo restauration",
+                    "width": 1200,
+                    "height": 900
+                  },
+                  "nome": "Restauration",
+                  "testo": "Mise en place anticipée et sécurité HACCP.",
+                  "colore_bordo": {
+                    "color": "#1f6b52",
+                    "opacity": 100
+                  }
+                }
+              ],
+              "child_css": {},
+              "css": {},
+              "css_class": "dnd-module",
+              "path": "../modules/lp-sectors.module",
+              "schema_version": 2,
+              "smart_objects": [],
+              "smart_type": "NOT_SMART",
+              "wrap_field_tag": "div"
+            },
+            "rowMetaData": [],
+            "rows": [],
+            "type": "custom_widget",
+            "w": 12,
+            "x": 0
+          }
+        },
+        {
+          "0": {
+            "cells": [],
+            "cssClass": "",
+            "cssId": "",
+            "cssStyle": "",
+            "name": "main_dnd-module-9",
+            "params": {
+              "anchor_id": "contatti",
+              "eyebrow": "Contactez-nous",
+              "titolo": "Faites entrer GOLD 10 dans votre cuisine.",
+              "testo": "Un technicien Dalmec vous contactera sous 24 heures ouvrées avec un devis et la configuration recommandée.",
+              "telefono": "+39 0422 832679",
+              "email": "info@dal-mec.it",
+              "form": {
+                "form_id": "dc37770b-53f8-4c9e-9cf7-2dfbbe7b6615",
+                "form_type": "HUBSPOT",
+                "message": "Merci. Votre demande a été envoyée.",
+                "response_type": "inline"
+              },
+              "child_css": {},
+              "css": {},
+              "css_class": "dnd-module",
+              "path": "../modules/lp-contact-form.module",
+              "schema_version": 2,
+              "smart_objects": [],
+              "smart_type": "NOT_SMART",
+              "wrap_field_tag": "div"
+            },
+            "rowMetaData": [],
+            "rows": [],
+            "type": "custom_widget",
+            "w": 12,
+            "x": 0
+          }
+        }
+      ],
+      "type": "cell",
+      "w": 12,
+      "x": 0
+    }
+  },
+  "linkRelCanonicalUrl": "",
+  "name": "DalMec GOLD 10 (FR)",
+  "publicAccessRules": [],
+  "publicAccessRulesEnabled": false,
+  "publishImmediately": false,
+  "slug": "fr",
+  "subcategory": "landing_page",
+  "templatePath": "dalmec/templates/promo.html",
+  "useFeaturedImage": false,
+  "widgetContainers": {},
+  "widgets": {
+    "lp_header": {
+      "body": {
+        "anchor_id": "",
+        "logo": {
+          "src": "",
+          "alt": "DalMec",
+          "width": 1200,
+          "height": 900
+        },
+        "payoff": "Perfect Cooling, Perfect Taste",
+        "telefono_label": "Appelez-nous",
+        "telefono": "+39 0422 832679",
+        "cta_label": "Demander des infos",
+        "cta_link": {
+          "url": {
+            "type": "EXTERNAL",
+            "href": "#contatti",
+            "content_id": null
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      "type": "module"
+    },
+    "lp_footer": {
+      "body": {
+        "anchor_id": "",
+        "colonne": [
+          {
+            "titolo": "SITE D’EXPLOITATION",
+            "sottotitolo": "Dalmec – Refrigeration",
+            "testo": "<p>Via Fabio Filzi, 46<br>31036 Istrana (Treviso) Italy</p>"
+          },
+          {
+            "titolo": "SIÈGE SOCIAL",
+            "sottotitolo": "Dal Santo Srl",
+            "testo": "<p>Via Sant'Anna, 38<br>31050 Fossalunga di Vedelago (Treviso) Italy</p>"
+          },
+          {
+            "titolo": "CONTACTS",
+            "sottotitolo": "",
+            "testo": "<p>Phone +39 0422 832679<br>Fax +39 0422 677043<br>info@dal-mec.it</p>"
+          }
+        ],
+        "copyright": "© 2026 Dal Santo Srl. Tous droits réservés.",
+        "piva": "P. IVA 04207260268",
+        "link_legali": [
+          {
+            "url": {
+              "url": {
+                "type": "EXTERNAL",
+                "href": "#",
+                "content_id": null
+              },
+              "open_in_new_tab": false,
+              "no_follow": false
+            },
+            "link_label": "Politique de confidentialité"
+          },
+          {
+            "url": {
+              "url": {
+                "type": "EXTERNAL",
+                "href": "#",
+                "content_id": null
+              },
+              "open_in_new_tab": false,
+              "no_follow": false
+            },
+            "link_label": "Politique des cookies"
+          }
+        ]
+      },
+      "type": "module"
+    }
+  },
+  "metaDescription": "Abatteur GOLD 10 : 40 kg de +90 à +3 °C, bacs GN 1/1 et EN 600×400, commande tactile 7\".",
+  "language": "fr"
+}
